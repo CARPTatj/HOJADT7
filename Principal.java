@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/*
+ * Alina Carías (22539)
+ * Algoritmos y Estructuras de Datos Sección 40
+ * Hoja de Trabajo 7
+ * 24-03-2023
+ * Clase Principal: es la que interactua con el usuario 
+ */
 public class Principal {
 
     public static void main(String[] args) {
@@ -45,20 +51,20 @@ public class Principal {
                                 break;
 
                             case 2:
-                            System.out.println("¿A que idioma desea traducir su oración?\n");
-                            System.out.println("1. Inglés\n3. Francés");
-                            int otra = teclado.nextInt();
-                            teclado.nextLine();
-                            System.out.println(traductor.traductor(ora, Origen, otra));
-                            break;
+                                System.out.println("¿A que idioma desea traducir su oración?\n");
+                                System.out.println("1. Inglés\n3. Francés");
+                                int otra = teclado.nextInt();
+                                teclado.nextLine();
+                                System.out.println(traductor.traductor(ora, Origen, otra));
+                                break;
 
                             case 3: 
-                            System.out.println("¿A que idioma desea traducir su oración?\n");
-                            System.out.println("1. Inglés\n2. Español");
-                            int alg = teclado.nextInt();
-                            teclado.nextLine();
-                            System.out.println(traductor.traductor(ora, Origen, alg));
-                            break;
+                                System.out.println("¿A que idioma desea traducir su oración?\n");
+                                System.out.println("1. Inglés\n2. Español");
+                                int alg = teclado.nextInt();
+                                teclado.nextLine();
+                                System.out.println(traductor.traductor(ora, Origen, alg));
+                                break;
 
                             default:
                                 break;
