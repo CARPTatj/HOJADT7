@@ -1,5 +1,10 @@
-/**
- * 
+/*
+ * Alina Carías (22539)
+ * Algoritmos y Estructuras de Datos Sección 40
+ * Hoja de Trabajo 7
+ * 24-03-2023
+ * Clase TreeNode: crea un nodo para un binary search tree.
+ * CLASE TOMADA DEL REPOSITORIA DEL PROFESOR
  */
 
 /**
