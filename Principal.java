@@ -14,7 +14,7 @@ public class Principal {
         Scanner teclado = new Scanner(System.in);
         
         String menu = "----------Traductor para Inglés, Español, Francés------------\n" + 
-        "1. Palabras del tradcutor\n"+
+        "1. Palabras del traductor\n"+
         "2. Traducción\n"+
         "3. Salir\n";
         int opcion = 0;

@@ -34,6 +34,71 @@ public class traductor {
         this.compara = compara;
     }
 
+    //Sets y Gets
+    
+    /** 
+     * @return BinarySearchTree<String, Association>
+     */
+    public BinarySearchTree<String,Association> getEnglish() {
+        return this.english;
+    }
+
+    
+    /** 
+     * @param english
+     */
+    public void setEnglish(BinarySearchTree<String,Association> english) {
+        this.english = english;
+    }
+
+    
+    /** 
+     * @return BinarySearchTree<String, Association>
+     */
+    public BinarySearchTree<String,Association> getSpanish() {
+        return this.spanish;
+    }
+
+    
+    /** 
+     * @param spanish
+     */
+    public void setSpanish(BinarySearchTree<String,Association> spanish) {
+        this.spanish = spanish;
+    }
+
+    
+    /** 
+     * @return BinarySearchTree<String, Association>
+     */
+    public BinarySearchTree<String,Association> getFrench() {
+        return this.french;
+    }
+
+    
+    /** 
+     * @param french
+     */
+    public void setFrench(BinarySearchTree<String,Association> french) {
+        this.french = french;
+    }
+
+    
+    /** 
+     * @return comparador
+     */
+    public comparador getCompara() {
+        return this.compara;
+    }
+
+    
+    /** 
+     * @param compara
+     */
+    public void setCompara(comparador compara) {
+        this.compara = compara;
+    }
+    
     //Métodos
     
     /** 
@@ -232,70 +297,6 @@ public class traductor {
 
     
 
-    //Sets y Gets
-    
-    /** 
-     * @return BinarySearchTree<String, Association>
-     */
-    public BinarySearchTree<String,Association> getEnglish() {
-        return this.english;
-    }
-
-    
-    /** 
-     * @param english
-     */
-    public void setEnglish(BinarySearchTree<String,Association> english) {
-        this.english = english;
-    }
-
-    
-    /** 
-     * @return BinarySearchTree<String, Association>
-     */
-    public BinarySearchTree<String,Association> getSpanish() {
-        return this.spanish;
-    }
-
-    
-    /** 
-     * @param spanish
-     */
-    public void setSpanish(BinarySearchTree<String,Association> spanish) {
-        this.spanish = spanish;
-    }
-
-    
-    /** 
-     * @return BinarySearchTree<String, Association>
-     */
-    public BinarySearchTree<String,Association> getFrench() {
-        return this.french;
-    }
-
-    
-    /** 
-     * @param french
-     */
-    public void setFrench(BinarySearchTree<String,Association> french) {
-        this.french = french;
-    }
-
-    
-    /** 
-     * @return comparador
-     */
-    public comparador getCompara() {
-        return this.compara;
-    }
-
-    
-    /** 
-     * @param compara
-     */
-    public void setCompara(comparador compara) {
-        this.compara = compara;
-    }
 
 
 }
